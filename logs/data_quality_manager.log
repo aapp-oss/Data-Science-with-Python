@@ -1,0 +1,40 @@
+2026-06-24 20:29:12,614 | INFO     | core.data_loader | Loading file: sample_constituents.xlsx
+2026-06-24 20:29:12,682 | INFO     | core.data_loader |   Rows loaded: 109  |  Columns: 15
+2026-06-24 20:29:12,723 | INFO     | core.data_loader |   Load complete. 109 records ready for processing.
+2026-06-24 20:29:12,726 | INFO     | core.data_validator | Applying standardizations to 109 records...
+2026-06-24 20:29:13,250 | INFO     | core.data_validator | Standardization complete.
+2026-06-24 20:29:13,251 | INFO     | core.duplicate_detector | Starting duplicate detection on 109 records...
+2026-06-24 20:29:13,422 | INFO     | core.duplicate_detector | Detection complete: 21 exact, 1 fuzzy unique pairs found.
+2026-06-24 20:29:13,474 | INFO     | core.record_merger | Manual review file written to: output\demo\pending_review.xlsx
+2026-06-24 20:29:13,475 | INFO     | core.record_merger | Merging: 21 auto-approve, 1 need review.
+2026-06-24 20:29:13,867 | INFO     | core.record_merger | Merge complete: 21 records merged, 14 removed from dataset.
+2026-06-24 20:29:13,868 | INFO     | core.data_validator | Running data validation on 95 records...
+2026-06-24 20:29:13,888 | INFO     | core.data_validator | Validation found 2 issues.
+2026-06-24 20:29:13,892 | INFO     | core.error_detector | Running error detection on 95 records...
+2026-06-24 20:29:13,935 | INFO     | core.error_detector | Error detection found 97 errors.
+2026-06-24 20:29:13,996 | INFO     | core.report_generator | Dashboard written: output\demo\quality_dashboard_20260624_202913.xlsx
+2026-06-24 20:29:14,084 | INFO     | core.report_generator | Duplicates report written: output\demo\duplicates_report_20260624_202913.xlsx
+2026-06-24 20:29:14,141 | INFO     | core.report_generator | Validation report written: output\demo\validation_issues_20260624_202913.xlsx
+2026-06-24 20:29:14,231 | INFO     | core.report_generator | Exception report written: output\demo\exception_report_20260624_202913.xlsx
+2026-06-24 20:29:14,291 | INFO     | core.report_generator | Merge audit written: output\demo\merge_audit_20260624_202913.xlsx
+2026-06-24 20:29:14,292 | INFO     | core.report_generator | All reports written to: output\demo
+2026-06-24 20:33:53,376 | INFO     | core.data_loader | Loading file: sample_constituents.xlsx
+2026-06-24 20:33:53,453 | INFO     | core.data_loader |   Rows loaded: 109  |  Columns: 15
+2026-06-24 20:33:53,501 | INFO     | core.data_loader |   Load complete. 109 records ready for processing.
+2026-06-24 20:33:53,505 | INFO     | core.data_validator | Applying standardizations to 109 records...
+2026-06-24 20:33:54,144 | INFO     | core.data_validator | Standardization complete.
+2026-06-24 20:33:54,146 | INFO     | core.duplicate_detector | Starting duplicate detection on 109 records...
+2026-06-24 20:33:54,323 | INFO     | core.duplicate_detector | Detection complete: 21 exact, 3 fuzzy unique pairs found.
+2026-06-24 20:33:54,383 | INFO     | core.record_merger | Manual review file written to: output\demo\pending_review.xlsx
+2026-06-24 20:33:54,384 | INFO     | core.record_merger | Merging: 21 auto-approve, 3 need review.
+2026-06-24 20:33:54,799 | INFO     | core.record_merger | Merge complete: 21 records merged, 15 removed from dataset.
+2026-06-24 20:33:54,801 | INFO     | core.data_validator | Running data validation on 94 records...
+2026-06-24 20:33:54,820 | INFO     | core.data_validator | Validation found 2 issues.
+2026-06-24 20:33:54,823 | INFO     | core.error_detector | Running error detection on 94 records...
+2026-06-24 20:33:54,871 | INFO     | core.error_detector | Error detection found 96 errors.
+2026-06-24 20:33:54,930 | INFO     | core.report_generator | Dashboard written: output\demo\quality_dashboard_20260624_203354.xlsx
+2026-06-24 20:33:55,003 | INFO     | core.report_generator | Duplicates report written: output\demo\duplicates_report_20260624_203354.xlsx
+2026-06-24 20:33:55,073 | INFO     | core.report_generator | Validation report written: output\demo\validation_issues_20260624_203354.xlsx
+2026-06-24 20:33:55,160 | INFO     | core.report_generator | Exception report written: output\demo\exception_report_20260624_203354.xlsx
+2026-06-24 20:33:55,222 | INFO     | core.report_generator | Merge audit written: output\demo\merge_audit_20260624_203354.xlsx
+2026-06-24 20:33:55,224 | INFO     | core.report_generator | All reports written to: output\demo
